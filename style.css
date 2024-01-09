@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:wght@300;400;500;600&family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background: linear-gradient(#141B41, #76bae7);
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-front {
+
+    padding: 20px;
+    border-radius: 25px;
+    height: 230px;
+    width: 400px;
+    background-image: url(imags/abstract-wavy-lines-black.jpg);
+}
+
+.card-front header,
+.card-front .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-front h5 {
+    color: #fff;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.card-front img {
+    width: 59px;
+}
+
+.card-front .clip {
+    width: 80px;
+}
+
+.card-details {
+    color: #fff;
+}
+
+.card-details {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-details p {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+ .card-details h6{
+    font-size: 10px;
+    font-weight: 400;
+ }
+.card-details h4 {
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.valid-date{
+    padding-top: 60px;
+}
+
+.valid-date h6{
+    font-size: 10px;
+    font-weight: 400;
+}
